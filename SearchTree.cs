@@ -54,5 +54,11 @@ namespace BinarySearchTreeAssigment
             }
         }
 
+        public void GetSize()
+        {
+            Console.WriteLine("Size" + " " + (7 * (this.leftCount + this.rightCount) - 1));
+        }
+
+
     }
 }
